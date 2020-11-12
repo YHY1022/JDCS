@@ -1,0 +1,125 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu4 .rt div {
+            width: 200px;
+            height: 244px;
+            box-sizing: border-box;
+            padding: 10px 15px 0;
+            background-color: red;
+            float: left;
+            position: relative;
+            overflow: hidden;
+            border-left: 1px solid #f2f2f2;
+            border-bottom: 1px solid #f2f2f2;
+            background-color: #ffffff;
+        }
+        
+        .menu4 .rt div img {
+            margin: 0 auto;
+        }
+        
+        .menu4 .rt .pinming {
+            width: 130px;
+            height: 36px;
+            font-size: 12px;
+            color: #333;
+            margin: 8px 0 7px;
+        }
+        
+        .menu4 .rt .price {
+            color: red;
+            position: absolute;
+            top: 205px;
+        }
+        
+        .menu4 .rt div .btn {
+            width: 199px;
+            height: 50px;
+            position: absolute;
+            top: 244px;
+            left: 0;
+            background-color: #ffa133;
+            line-height: 50px;
+            font-size: 14px;
+            text-align: center;
+            color: #fff;
+            display: none;
+        }
+        
+        .ft-wrap {
+            background-color: #eaeaea;
+        }
+        
+        .menu4 .rt div:hover .btn {
+            transform: translate(0, -50px);
+            transition-duration: 0.3s;
+            display: block;
+        }
+        
+        .menu4 .rt div:hover .price {
+            top: 161px;
+        }
+        
+        .menu4 .rt div:hover .pinming {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu4">
+        <div class="rt"></div>
+    </div>
+    <!-- <script src="../jquery1.11.js"></script>
+    <script>
+        $(function() {
+            $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php", {
+                pimg: "images/sp10.jpg",
+                pname: "桂格燕麦片健康礼盒即食燕麦片加量装",
+                pprice: 57.70,
+                pdesc: "牛奶",
+                pprecee: 100,
+                uid: 44124
+            }, data => {
+                console.log(data);
+            });
+            $.get("http://jx.xuzhixiang.top/ap/api/productlist.php", {
+                uid: 44124
+            }, data => {
+                let str = "";
+                for (let i = 0; i < data.data.length; i++) {
+                    str += `
+                <div>
+                <a href="pid=${data.data[i].pid}"><img src="${data.data[i].pimg}"</a>
+                <p class="pinming">${data.data[i].pname}</p>
+                <p class="price">￥${data.data[i].pprice}</p>
+                <a href="" class="btn">加入购物车</a>
+                </div>
+                 `
+                }
+                console.log(str);
+                $(".rt").append(str);
+            });
+            $.get(' http://jx.xuzhixiang.top/ap/api/goods/goods-delete.php', {
+                    pid: 345607,
+                    uid: 44124,
+                    token: '2339a9ccfde94dd6c9e44bdf6f0c7ec5'
+
+
+                },
+                data => {
+                    console.log(data);
+                }
+
+            )
+        });
+    </script> -->
+</body>
+
+</html>

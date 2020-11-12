@@ -1,0 +1,142 @@
+{
+  "id": "2112890",
+  "name": "09班二组食品图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1029212",
+      "name": "二维码",
+      "font_class": "qrcode-1-copy",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "1190106",
+      "name": "正品保证",
+      "font_class": "zhengpinbaozheng",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "6234773",
+      "name": "包邮",
+      "font_class": "baoyou",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "7974079",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "8718255",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "13580780",
+      "name": "帽子",
+      "font_class": "maozi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1304892",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "6237078",
+      "name": "微信",
+      "font_class": "tubiaozhizuo-",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "777841",
+      "name": "浏览",
+      "font_class": "icon",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "558453",
+      "name": "方块",
+      "font_class": "fangkuai",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "5187404",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "3874513",
+      "name": "小于",
+      "font_class": "xiaoyu",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "16808688",
+      "name": "大于",
+      "font_class": "dayu",
+      "unicode": "e732",
+      "unicode_decimal": 59186
+    },
+    {
+      "icon_id": "1859597",
+      "name": "美食",
+      "font_class": "meishi",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "4487926",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "7789620",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "8157647",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "10664706",
+      "name": "搜索 search",
+      "font_class": "search",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "13696810",
+      "name": "菜单",
+      "font_class": "duiqixuanzezhong",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    }
+  ]
+}

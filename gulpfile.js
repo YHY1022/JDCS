@@ -22,7 +22,7 @@ gulp.task("copyimg", done => {
     })
     //拷贝index.html
 gulp.task("copyindexhtml", done => {
-    gulp.src("*.html")
+    gulp.src("index.html")
         .pipe(gulp.dest("dist"))
         .pipe(connect.reload());
     done()
@@ -30,8 +30,16 @@ gulp.task("copyindexhtml", done => {
 
 //拷贝html
 gulp.task("copyhtml", done => {
-        gulp.src("html/*.html")
-            .pipe(gulp.dest("dist/html"))
+    gulp.src("html/*.html")
+        .pipe(gulp.dest("dist/html"))
+        .pipe(connect.reload());
+    done()
+})
+
+//拷贝iconfont
+gulp.task("font", done => {
+        gulp.src("iconfont/*")
+            .pipe(gulp.dest("dist/iconfont"))
             .pipe(connect.reload());
         done()
     })
@@ -43,6 +51,7 @@ gulp.task("copyjs", done => {
 
     done()
 })
+
 gulp.task("sass", done => {
 
     gulp.src("sass/*.scss")
@@ -72,13 +81,13 @@ gulp.task("server", done => {
 gulp.task("watch", done => {
 
     gulp.watch("html/*.html", gulp.series("copyhtml"));
-    gulp.watch("*.html", gulp.series("copyindexhtml"));
+    gulp.watch("index.html", gulp.series("copyindexhtml"));
     gulp.watch(["*.js", "!gulpfile.js"], gulp.series("copyjs"));
     gulp.watch("*.img", gulp.series("copyimg"));
     gulp.watch("sass/*.scss", gulp.series("sass"));
-
+    gulp.watch("iconfont/*"), gulp.series("font");
     done();
 })
 
-gulp.task("build", gulp.parallel("copyimg", "copyjs", "copyindexhtml", "copyhtml"));
+gulp.task("build", gulp.parallel("copyimg", "copyjs", "copyindexhtml", "copyhtml", "font"));
 gulp.task("default", gulp.series("server", "watch", "build"));
